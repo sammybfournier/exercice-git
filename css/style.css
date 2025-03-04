@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+.conteneur {
+    width: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.conteneur img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
