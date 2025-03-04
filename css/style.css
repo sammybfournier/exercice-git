@@ -19,5 +19,6 @@ h1 {
 
     &.active {
         scale: 1.5;
+        rotate: 360deg;
     }
 }
